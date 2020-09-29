@@ -1,0 +1,22 @@
+html {background-color: beige;      
+}
+
+h1 { text-transform: uppercase;
+    text-align: center;
+    font-size: 64px;
+    font-family:'Playfair Display', serif;;
+}
+
+
+p { font-family: Playfair;}
+
+.button-container{
+                text-align: center;
+                
+.p{
+    border: green;            
+    padding: 10px 21px;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+}
