@@ -4,19 +4,22 @@ html {background-color: beige;
 h1 { text-transform: uppercase;
     text-align: center;
     font-size: 64px;
-    font-family:'Playfair Display', serif;;
+    font-family:'Playfair Display', serif;
+    background: green;
 }
 
 
-p { font-family: Playfair;}
+p { font-family: "Playfair Display";}
 
-.button-container{
-                text-align: center;
-                
-.p{
-    border: green;            
-    padding: 10px 21px;
-    display: inline-block;
-    font-size: 10px;
-    margin: 4px 2px;
+.button-container{ box-align: center;}
+
+.button{
+        text-align: center;
+        border: 1px solid green;            
+        padding: 10px 21px;
+        display: inline-block;
+        font-size: 10px;
+        margin: 4px 2px;
+        
 }
+footer{font-size: x-small;}
