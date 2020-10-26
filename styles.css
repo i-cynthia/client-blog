@@ -1,25 +1,33 @@
-html {background-color: beige;      
-}
+html { background-image: url(../client-blog/images/world-map-jpeg.afphoto\ 22-35-13-510.jpg);
+       background-size: cover;
+    }
+
 
 h1 { text-transform: uppercase;
     text-align: center;
     font-size: 64px;
     font-family:'Playfair Display', serif;
-    background: green;
+    color: beige;
+    background: #008000;
 }
 
 
-p { font-family: "Playfair Display";}
+.button-container { display: flex;
+                    justify-content: center;
 
-.button-container{ box-align: center;}
+}
 
-.button{
+.button{ 
         text-align: center;
-        border: 1px solid green;            
+        border: 5px solid #008000;            
         padding: 10px 21px;
         display: inline-block;
         font-size: 10px;
         margin: 4px 2px;
-        
+        border-top-left-radius: 52px;
+        border-top-right-radius: 52px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 52px;
 }
+
 footer{font-size: x-small;}
